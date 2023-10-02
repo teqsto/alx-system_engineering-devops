@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -type d -empty -printf '%f\n' ; find . -type f -empty -printf '%f\n'
+
+
