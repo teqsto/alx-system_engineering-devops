@@ -1,0 +1,2 @@
+#!/bin/bash
+reversed_text=$(echo "$input_text" | rev)
