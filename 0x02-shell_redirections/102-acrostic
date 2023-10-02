@@ -1,0 +1,12 @@
+#!/bin/bash
+#!/bin/bash
+
+# Read input from the user
+echo "Enter the acrostic message (Ctrl+D to end):"
+while IFS= read -r line || [[ -n "$line" ]]; do
+  decoded_message="${decoded_message}${line:0:1}"
+done
+
+# Print the decoded message with a new line at the end
+echo -e "$decoded_message\n"
+
