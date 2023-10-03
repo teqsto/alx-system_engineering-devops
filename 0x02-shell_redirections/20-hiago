@@ -1,2 +1,2 @@
 #!/bin/bash
-cleaned_text=$(echo "$input_text" | tr -d 'cC')
+tr -d cC
